@@ -30,4 +30,4 @@ if get_started:
     switch_page("ocr")
 
 
-st.info("Features like Qwen2Vl require GPU support. Couldn't implement it on Streamlit Sharing. Please run it locally to experience all features.")
+st.info("Features like Qwen2Vl require GPU support. Couldn't implement it on Streamlit Sharing.")
