@@ -12,7 +12,7 @@ def add_blank_space(n: int) -> None:
 
 
 
-st.title("SnapScript 🧬")
+st.title("Snap Assist 🧬")
 st.subheader(":grey[Your very own OCR and Doc Search Tool]")
 
 add_blank_space(4)
