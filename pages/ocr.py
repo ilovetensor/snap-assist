@@ -37,3 +37,5 @@ if uploaded_file is not None:
                 text = highlight_text(text, keyword)
             st.subheader('Processed Text')
             st.markdown(text, unsafe_allow_html=True)
+
+st.info("Features like Qwen2Vl require GPU support. Couldn't implement it on Streamlit Sharing. Please run it locally to experience all features.")
