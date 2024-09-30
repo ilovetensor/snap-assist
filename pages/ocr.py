@@ -3,6 +3,8 @@ from PIL import Image
 import pytesseract
 import re
 
+st.set_page_config(page_icon="🧬", layout="wide")
+
 def extract_text(image):
     """ Extract text from image using OCR (Tesseract). """
     return pytesseract.image_to_string(image)
